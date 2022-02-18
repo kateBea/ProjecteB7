@@ -18,6 +18,7 @@ typedef pair<vertex, vertex> edge;
 
 /**
  * Overload operator == for objects of type edge
+ (Does not really matter since edge contains basic types)
  */
 bool operator==(const edge& a, const edge& b) 
 {
